@@ -31,7 +31,9 @@ jobs:
         run: npm run lint
 
       - name: Build project
-        run: npm run build
+        run: |
+          npm run build
+          cp dist/index.html dist/404.html
 
       - name: Upload build
         uses: actions/upload-pages-artifact@v3
