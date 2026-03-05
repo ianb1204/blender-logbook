@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <div className="AppContainer">
-      {"Hello world"}
+      {"Hello world test main"}
     </div>
   )
 }
