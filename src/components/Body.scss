@@ -1,0 +1,76 @@
+.Body{
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    word-wrap: break-word;
+    color: var(--body);
+    height: fit-content;
+
+    &.noUserSelection{
+        -webkit-user-select: none; /* Safari, older Chrome/Opera */
+        -moz-user-select: none;    /* Firefox */
+        -ms-user-select: none;     /* Internet Explorer/Edge */
+        user-select: none; 
+    }
+
+    &.overflow{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    &.uppercase{
+        text-transform: uppercase;
+    }
+
+    &.small{
+        font-size: 12px;
+    }
+
+    &.medium{
+        font-size: 14px;
+    }
+
+    &.large{
+        font-size: 16px;
+    }
+
+    &.veryLarge{
+        font-size: 18px;
+    }
+
+    &.w100{
+        font-weight: 200;
+    }
+
+    &.w200{
+        font-weight: 200;
+    }
+
+    &.w300{
+        font-weight: 200;
+    }
+
+    &.w400{
+        font-weight: 200;
+    }
+
+    &.w500{
+        font-weight: 200;
+    }
+
+    &.w600{
+        font-weight: 200;
+    }
+
+    &.w700{
+        font-weight: 200;
+    }
+
+    &.w800{
+        font-weight: 200;
+    }
+
+    &.w900{
+        font-weight: 200;
+    }
+}
