@@ -1,0 +1,75 @@
+.Heading{
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+
+    &.centered{
+        text-align: center;
+    }
+
+    &.noUserSelection{
+        -webkit-user-select: none; /* Safari, older Chrome/Opera */
+        -moz-user-select: none;    /* Firefox */
+        -ms-user-select: none;     /* Internet Explorer/Edge */
+        user-select: none; 
+    }
+
+    &.uppercase{
+        text-transform: uppercase;
+    }
+
+    &.xs{
+        font-size: 18px;
+    }
+
+    &.s{
+        font-size: 22px;
+    }
+
+    &.m{
+        font-size: 26px;
+    }
+
+    &.l{
+        font-size: 32px;
+    }
+
+    &.xl{
+        font-size: 40px;
+    }
+
+    &.w100{
+        font-weight: 200;
+    }
+
+    &.w200{
+        font-weight: 200;
+    }
+
+    &.w300{
+        font-weight: 200;
+    }
+
+    &.w400{
+        font-weight: 200;
+    }
+
+    &.w500{
+        font-weight: 200;
+    }
+
+    &.w600{
+        font-weight: 200;
+    }
+
+    &.w700{
+        font-weight: 200;
+    }
+
+    &.w800{
+        font-weight: 200;
+    }
+
+    &.w900{
+        font-weight: 200;
+    }
+}

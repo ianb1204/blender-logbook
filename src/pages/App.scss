@@ -1,7 +1,37 @@
 
-.AppContainer{
+.App{
     width: 100dvw;
     height: 100dvh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
     background-color: var(--background);
-    color:var(--body)
+    color:var(--body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    .AppContainer{
+        width: 100%;
+        flex-shrink: 0;
+        flex-grow: 1;
+        background-color: var(--background);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 20px;
+
+        .AppContent{
+            width: 100%;
+            max-width: 1650px;
+            flex-grow: 1;
+            border-left: 1px solid var(--borders);
+            border-right: 1px solid var(--borders);
+            padding: 20px 40px 0 40px;
+            display: flex;         
+            align-items: center;   
+        }
+    }
 }
