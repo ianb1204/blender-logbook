@@ -11,6 +11,9 @@ const Body = (props) => {
     if(props.uppercase) cn += " uppercase"
     if(props.noUserSelection) cn += " noUserSelection"
     if(props.primary) cn += " primary"
+    if(props.underline) cn += " underline"
+    if(props.hoverable) cn += " hoverable"
+    if(props.white) cn += " white"
 
     return (
         <p className={cn} style={{maxWidth:props.maxWidth ?? "auto"}}>{props.children}</p>

@@ -23,6 +23,20 @@
         text-transform: uppercase;
     }
 
+    &.underline{
+        text-decoration: underline;
+    }
+
+    &.white{
+        color: var(--neutral100);
+    }
+
+    &.hoverable{
+        &:hover{
+            color: var(--primary);
+        }
+    }
+
     &.primary{
         color: var(--primary);
     }
