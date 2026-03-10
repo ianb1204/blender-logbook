@@ -4,6 +4,7 @@
     word-wrap: break-word;
     color: var(--body);
     height: fit-content;
+    transition: all .2s;
 
     &.noUserSelection{
         -webkit-user-select: none; /* Safari, older Chrome/Opera */
@@ -20,6 +21,10 @@
 
     &.uppercase{
         text-transform: uppercase;
+    }
+
+    &.primary{
+        color: var(--primary);
     }
 
     &.small{

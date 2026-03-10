@@ -10,6 +10,7 @@ const Body = (props) => {
     if(props.overflow && props.maxWidth) cn += ' overflow'
     if(props.uppercase) cn += " uppercase"
     if(props.noUserSelection) cn += " noUserSelection"
+    if(props.primary) cn += " primary"
 
     return (
         <p className={cn} style={{maxWidth:props.maxWidth ?? "auto"}}>{props.children}</p>

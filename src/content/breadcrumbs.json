@@ -1,0 +1,23 @@
+{
+    "fr":{
+        "home":"accueil.md",
+        "page1fr":{
+            "home":"page1fr.md"
+        },
+        "page2fr":{
+            "home":"page2fr.md"
+        },
+        "page3fr":{
+            "home":"page3fr.md"
+        }
+    },
+    "en":{
+        "home":"home.md",
+        "page1en":{
+            "home":"page1en.md"
+        },
+        "page2en":{
+            "home":"page2en.md"
+        }
+    }
+}

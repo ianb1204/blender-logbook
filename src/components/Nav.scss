@@ -19,5 +19,23 @@
         border-left: 1px solid var(--borders);
         border-right: 1px solid var(--borders);
         padding: 0 40px;
+
+        .NavContent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            flex-shrink: 1;
+
+            .NavOptions{
+                display: flex;
+                gap: 50px;
+                align-items: center;
+            }
+        }
+
+        .NavSettings{
+            width: 110px;
+        }
     }
 }
