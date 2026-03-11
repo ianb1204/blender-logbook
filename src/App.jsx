@@ -1,4 +1,4 @@
-import { Route, Routes, useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import './App.scss'
 import { useEffect, useMemo } from 'react'
 import Nav from './components/Nav'

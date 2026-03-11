@@ -2,6 +2,9 @@ import './MarkdownReader.scss'
 import { useEffect, useState } from 'react';
 import Markdown from 'react-markdown'
 import remarkGfm from "remark-gfm";
+import rehypeHighlight from "rehype-highlight";
+import "highlight.js/styles/github.css";
+import 'github-markdown-css/github-markdown-light.css'
 
 const MarkdownReader = (props) => {
     const [content, setContent] = useState("");
@@ -15,8 +18,11 @@ const MarkdownReader = (props) => {
     }, [props.file]);
 
     return (
-        <div className="MarkdownReader">
-            <Markdown remarkPlugins={[remarkGfm]}>
+        <div className="MarkdownReader markdown-body">
+            <Markdown 
+                remarkPlugins={[remarkGfm]}
+                rehypePlugins={[rehypeHighlight]}
+            >
                 {content}
             </Markdown>
         </div>

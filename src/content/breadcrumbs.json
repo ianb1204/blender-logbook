@@ -1,17 +1,20 @@
 {
-    "fr":{
-        "home":"accueil.md",
-        "page1fr":{
-            "home":"page1fr.md"
-        },
-        "page2fr":{
-            "home":"page2fr.md"
-        },
-        "page3fr":{
-            "home":"page3fr.md"
-        }
+    "en": {
+        "home": "home.md"
     },
-    "en":{
-        "home":"home.md"
+    "fr": {
+        "home": "home.md",
+        "contexte": {
+            "home": "contexte.md"
+        },
+        "explications": {
+            "home": "explications.md"
+        },
+        "mission": {
+            "home": "mission.md"
+        },
+        "outil": {
+            "home": "outil.md"
+        }
     }
 }

@@ -64,7 +64,7 @@ const Nav = (props) => {
                     <div className="NavOptions">
                         {props.tabs.map((pageKey, pageId) => (
                             pageKey !== "home" && <button onMouseEnter={()=>setHoveredOption(pageKey)} onMouseLeave={()=>setHoveredOption()} onClick={()=>onOptionClicked(pageKey)} className={"NavOption" + (props.currentTab === pageKey ? " current" : "")} key={"nav-page-" + pageId}>
-                                <Body primary={hoveredOption === pageKey || props.currentTab === pageKey}>{pageKey}</Body>
+                                <Body capitalize primary={hoveredOption === pageKey || props.currentTab === pageKey}>{pageKey}</Body>
                             </button>
                         ))}
                     </div>

@@ -14,6 +14,7 @@ const Body = (props) => {
     if(props.underline) cn += " underline"
     if(props.hoverable) cn += " hoverable"
     if(props.white) cn += " white"
+    if(props.capitalize) cn += " capitalize"
 
     return (
         <p className={cn} style={{maxWidth:props.maxWidth ?? "auto"}}>{props.children}</p>
