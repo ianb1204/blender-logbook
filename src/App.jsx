@@ -19,7 +19,7 @@ const App = () => {
   const path = useMemo(() => {
     if (!params['*']) return []
     return params['*'].split('/')
-  }, [params['*']])
+  }, [params])
 
   const languageBreadcrumbs = useMemo(() => {
     return breadcrumbs[lang]
