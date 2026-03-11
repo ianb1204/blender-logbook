@@ -1,3 +1,77 @@
 # Page d'accueil
 
-Cette page arrive bientôt. Restez à l’écoute !
+::::::cards{id=84, oo=88}
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+:::card
+### Mon titre
+
+Du contenu dans la card
+:::
+
+::::::

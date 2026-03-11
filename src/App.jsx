@@ -67,6 +67,9 @@ const App = () => {
       <Nav currentTab={path.length > 0 && path[0] ? path[0] : 'home'} setCurrentPath={onCurrentPathChanged} tabs={Object.keys(languageBreadcrumbs)}/>
       <div className="AppContainer">
         <div className="AppContent">
+          <div className="Menu">
+            lal
+          </div>
           <MarkdownReader file={modules[buildModulesURL(lang, path)]}/>
         </div>
       </div>
